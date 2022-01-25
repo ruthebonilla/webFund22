@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Sign Up Here For Special Deals!</h1>
+    <form>
+      <div>
+        <label for="name">First Name: *</label>
+        <input type="text" name="name" />
+      </div>
+      <br />
+      <div>
+        <label for="lastName">Last Name: *</label>
+        <input type="text" name="lastName" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email Address: *</label>
+        <input type="email" name="email" />
+      </div>
+      <br />
+      <div>
+        <label for="password">Create a password: *</label>
+        <input type="password" name="password" />
+      </div>
+      <br />
+      <div>
+        <label for="birthday">Birthday: *</label>
+        <input type="date" name="birthday" />
+      </div>
+      <br />
+      <div>
+        <label for="question">Gender Identity</label>
+        <br />
+        <label for="girl">girl</label>
+        <input type="radio" name="question" value="girl" />
+        <label for="boy">boy</label>
+        <input type="radio" name="question" value="boy" />
+        <label for="noAnswer">prefer not to answer</label>
+        <input type="radio" name="question" value="noAnswer" />
+      </div>
+      <br />
+      <div>
+        <label for="description">Tell us a little about yourself:</label>
+        <br />
+        <textarea name="description" cols="40" rows="7"></textarea>
+      </div>
+      <br />
+      <label for="options"
+        >What's your favorite category from our clothing website?
+      </label>
+      <select name="options">
+        <option value="dresses">dresses</option>
+        <option value="pants">pants/skirts</option>
+        <option value="shirts">shirts/sweaters</option>
+        <option value="accessories">accessories</option>
+        <option value="shoes">shoes</option>
+      </select>
+      <br />
+      <div>
+        <br />
+        <label for="checkbox"
+          >Yes, I want to recieve special deal updates</label
+        >
+        <input type="checkbox" name="checkbox" />
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Sign me up!" />
+      </div>
+    </form>
+    <br />
+    <br />
+    <footer>* Indicates a required field</footer>
+  </body>
+</html>
