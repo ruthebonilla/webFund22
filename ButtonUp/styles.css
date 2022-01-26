@@ -1,0 +1,30 @@
+button {
+  display: block;
+  margin: auto;
+  font-size: 30px;
+}
+
+.btn1 {
+  border: 2px solid rgb(99, 136, 204);
+  color: rgb(99, 136, 204);
+  padding: 5px 50px;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+.btn2 {
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: deeppink;
+  border: 1px solid deeppink;
+  border-radius: 100px;
+}
+
+.btn3 {
+  background-color: violet;
+  color: white;
+  border: 3px solid black;
+  padding: 10px;
+  box-shadow: 3px 3px #222222;
+}
