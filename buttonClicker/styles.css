@@ -3,6 +3,13 @@ body {
   padding: 0px 100px;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* vertical-align: top; */
+}
+
 #navbar {
   display: flex;
   justify-content: space-around;
@@ -56,9 +63,11 @@ span {
 }
 
 #box3 {
-  position: relative;
-  left: 930px;
-  bottom: 758px;
+  /* position: relative; */
+  /* left: 930px;
+  bottom: 758px; */
+  margin-top: 30px;
+  vertical-align: top;
   border: 4px solid black;
   height: 200px;
   width: 300px;
