@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+}
+
+body {
+  padding: 0px 150px;
+  margin: auto;
+}
+
+#navbar {
+  border: 3px solid rgb(236, 209, 236);
+  border-radius: 4px;
+  padding-left: 25px;
+  padding-top: 20px;
+  height: 60px;
+  background-color: lightgray;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlights {
+  text-align: center;
+  margin-top: 5px;
+  height: 40px;
+}
+
+#profile {
+  height: 320px;
+  width: 310px;
+  background-color: lightgray;
+  border: 2px solid gray;
+  border-radius: 4px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  width: 90px;
+}
+
+#profile p {
+  text-align: center;
+  color: royalblue;
+  font-size: 20px;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+#profile h2 {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#feed {
+  height: 222px;
+  width: 700px;
+}
+
+.feed-box {
+  margin-bottom: 15px;
+  margin-top: none;
+  height: 100%;
+  border: 2px solid gray;
+  background-color: rgb(236, 209, 236);
+  border-radius: 4px;
+  padding: 20px 40px;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.right {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.contents h1 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+button {
+  padding: 10px;
+  width: 75px;
+  font-size: 20px;
+
+  border: 2px solid gray;
+  border-radius: 4px;
+  box-shadow: 4px 4px rgb(71, 70, 70);
+}
+
+.inbox-text {
+  font-size: 27px;
+  margin-top: 65px;
+}
+
+span {
+  text-decoration: underline;
+  color: royalblue;
+}

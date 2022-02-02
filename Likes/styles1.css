@@ -1,0 +1,28 @@
+body {
+  padding: 30px;
+}
+
+#usercard {
+  border: 3px solid black;
+  width: 400px;
+  padding: 10px;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  gap: 25px;
+  display: flex;
+  align-items: center;
+}
+
+button {
+  padding: 7px;
+  width: 70px;
+  background-color: plum;
+  border-radius: 3px;
+  box-shadow: 3px 3px;
+}
